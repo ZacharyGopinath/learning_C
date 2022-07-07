@@ -1,0 +1,18 @@
+//addition local variables
+
+#include <stdio.h>
+
+int addWithVars(){
+    int a = 7;
+    int b = 2;
+    return a + b;
+};
+
+int main() {
+    int sum;
+    sum = addWithVars();
+    printf("sum is %d", sum);
+    return 0;
+}
+
+// if main() comes first, warning: implicit declaration of function ‘addWithVars’
