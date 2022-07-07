@@ -1,0 +1,14 @@
+// addition parameters
+
+#include <stdio.h>
+
+int addWithVars(int a, int b){
+    return a + b;
+};
+
+int main() {
+    int sum;
+    sum = addWithVars(9, 2);
+    printf("sum is %d", sum);
+    return 0;
+};
