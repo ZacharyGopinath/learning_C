@@ -1,0 +1,13 @@
+// strings, inputs
+
+#include <stdio.h>
+
+int main() {
+    
+    char name[31]; // inside brackets = len
+    // actual length = bracketLen - 1, as last space is 'null terminator', \0
+    printf("name is ");
+    scanf("%s", name); // input
+    printf("hi %s\n", name);
+    return 0;
+};
